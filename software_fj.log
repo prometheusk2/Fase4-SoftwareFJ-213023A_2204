@@ -1,0 +1,23 @@
+2026-11-20 17:42:37,671 | INFO | Inicio de ejecución de simulaciones en Software FJ.
+2026-11-20 17:42:37,671 | INFO | Cliente registrado: Cliente[CL-01] Keith Rivaldo (keith@softwarefj.com)
+2026-11-20 17:42:37,671 | INFO | Cliente registrado: Cliente[CL-02] Laura Gómez (laura@empresa.co)
+2026-11-20 17:42:37,671 | ERROR | [Registro Cliente Fallido] Correo electrónico inválido: 'pedro-sin-arroba'.
+2026-11-20 17:42:37,672 | ERROR | [Registro Cliente Fallido] Teléfono inválido (solo dígitos, mín. 7): 'ABC1234'.
+2026-11-20 17:42:37,672 | INFO | Servicio registrado: Sala[SR-01] 'Sala Innovación' | Capacidad: 20 pers. | $80000.0/h
+2026-11-20 17:42:37,672 | INFO | Servicio registrado: Equipo[EQ-01] 'Portátil Workstation' | Stock: 5 | $35000.0/h
+2026-11-20 17:42:37,672 | INFO | Servicio registrado: Asesoría[AS-01] 'Arquitectura Cloud' (AWS) | $150000.0/h
+2026-11-20 17:42:37,672 | ERROR | [Registro Servicio Fallido] La tarifa por hora debe ser positiva: -50000.
+2026-11-20 17:42:37,672 | INFO | Reserva RES-01 confirmada para Keith Rivaldo.
+2026-11-20 17:42:37,672 | INFO | Reserva RES-01 procesada. Costo total: $342,720.00
+2026-11-20 17:42:37,673 | INFO | Finalizó intento de operación para reserva RES-01.
+2026-11-20 17:42:37,673 | INFO | Reserva RES-02 confirmada para Laura Gómez.
+2026-11-20 17:42:37,673 | INFO | Reserva RES-02 procesada. Costo total: $220,150.00
+2026-11-20 17:42:37,673 | INFO | Finalizó intento de operación para reserva RES-02.
+2026-11-20 17:42:37,673 | ERROR | [Reserva Fallida RES-03] El servicio 'Arquitectura Cloud' no está disponible.
+2026-11-20 17:42:37,673 | INFO | Finalizó intento de operación para reserva RES-03.
+2026-11-20 17:42:37,673 | INFO | Reserva RES-04 confirmada para Laura Gómez.
+2026-11-20 17:42:37,673 | ERROR | [Reserva Fallida RES-04] Error al procesar el pago de la reserva RES-04. | Causa original: Descuento fuera de rango (0 a <1): 1.5
+2026-11-20 17:42:37,673 | INFO | Finalizó intento de operación para reserva RES-04.
+2026-11-20 17:42:37,673 | INFO | Reserva RES-05 cancelada correctamente.
+2026-11-20 17:42:37,673 | INFO | Finalizó intento de operación para reserva RES-05.
+2026-11-20 17:42:37,673 | INFO | Fin de simulaciones. El sistema mantuvo estabilidad total.
